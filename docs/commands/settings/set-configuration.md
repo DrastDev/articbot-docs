@@ -77,7 +77,7 @@ You can automatically delete invite link's sent by user's with ArticBot, to prev
 To enable/disable the invite link deleter, use `$setconf removeInviteLinks [true|false]`
 
 ## Beta Commands
-To enable beta commands on your server, you must join our support server and submit a request. You can do so by clicking [here]()
+To enable beta commands on your server, you must join our support server and submit a request. You can do so by clicking [here](https://discord.gg/ZBYN5uB)
 
 ## Custom Audit Logger 
 The custom audit logger in ArticBot can be used to log more than just the kicks, warns and bans. It can be used to log when messages are deleted, or edited. 

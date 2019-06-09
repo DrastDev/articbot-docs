@@ -1,6 +1,6 @@
 # Getting Started
 
-To join our support server, click [here]()
+To join our support server, click [here](https://discord.gg/ZBYN5uB)
 
 ## Introduction
 
