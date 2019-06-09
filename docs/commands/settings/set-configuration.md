@@ -21,7 +21,7 @@ To enable/disable the debugger, use `$setconf debuggerEnabled [true|false]`
 To set the debugger channel, use `$setconf debuggerChannel [channel]`
 
 ## Chat Bot
-For details on the chatbot, click [here](/commands/fun/chatbot)
+For details on the chatbot, click [here](commands/fun/chatbot)
 
 ## Swear Filter
 The swear filter on ArticBot is used to filter profane language in a server, and automatically warn the user.

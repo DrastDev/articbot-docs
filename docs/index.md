@@ -21,49 +21,49 @@ To gain access to premium commands, you must donate at least $5 to ArticBot, the
 The following commands will be enabled by default:
 
 - Fun:
-    - [8ball](/commands/fun/8ball/)
-    - [LMGTFY](/commands/fun/lmgtfy/)
-    - [Say](/commands/fun/say/)
+    - [8ball](commands/fun/8ball/)
+    - [LMGTFY](commands/fun/lmgtfy/)
+    - [Say](commands/fun/say/)
 - Utility:
-    - [Guild Stats](/commands/utility/guildstats/)
-    - [Ping](/commands/utility/ping/)
-    - [Test](/commands/utility/test/)
-    - [Version](/commands/utility/version/)
-    - [Whois](/commands/utility/whois/)
+    - [Guild Stats](commands/utility/guildstats/)
+    - [Ping](commands/utility/ping/)
+    - [Test](commands/utility/test/)
+    - [Version](commands/utility/version/)
+    - [Whois](commands/utility/whois/)
 - Moderation:
-    - [Ban](/commands/moderation/ban/)
-    - [Kick](/commands/moderation/kick/)
-    - [Purge](/commands/moderation/purge/)
-    - [Warn](/commands/moderation/warn/)
+    - [Ban](commands/moderation/ban/)
+    - [Kick](commands/moderation/kick/)
+    - [Purge](commands/moderation/purge/)
+    - [Warn](commands/moderation/warn/)
 - Gamification:
-    - [Leaderboard](/commands/gamification/leaderboard/)
-    - [Points](/commands/gamification/points/)
-    - [Set Points](/commands/gamification/setpoints/)
-    - [Cleanup](/commands/gamification/cleanup/)
+    - [Leaderboard](commands/gamification/leaderboard/)
+    - [Points](commands/gamification/points/)
+    - [Set Points](commands/gamification/setpoints/)
+    - [Cleanup](commands/gamification/cleanup/)
 - Rules:
-    - [Show Rules](/commands/rules/show-rules/)
-    - [Send Rules](/commands/rules/send-rules/)
+    - [Show Rules](commands/rules/show-rules/)
+    - [Send Rules](commands/rules/send-rules/)
 - Settings:
-    - [Set Configuration](/commands/settings/set-configuration/)
-    - [Show Configuration](/commands/settings/show-configuration/)
-    - [Show Configuration Details](/commands/settings/show-configuration-details/)
-    - [Clear Configuration](/commands/settings/clear-configuration/)
+    - [Set Configuration](commands/settings/set-configuration/)
+    - [Show Configuration](commands/settings/show-configuration/)
+    - [Show Configuration Details](commands/settings/show-configuration-details/)
+    - [Clear Configuration](commands/settings/clear-configuration/)
 - Help:
-    - [Commands](/commands/help/commands)
-    - [Help](/commands/help/help)
-    - [Premium Commands](/commands/help/premium-commands)
+    - [Commands](commands/helpcommands)
+    - [Help](commands/help/help)
+    - [Premium Commands](commands/help/premium-commands)
 
 The following premium commands will automatically be available after you purchase a subscription:
 
-- [Ignore / Unignore](/commands/premium/ignore-unignore/)
-- [Lockdown](/commands/premium/lockdown/)
-- [Per-Server Blacklist](/commands/premium/per-server-blacklist/)
-- [Subscriptions](/commands/premium/subscriptions/)
-- [Team Announcements](/commands/premium/team-announcements/)
+- [Ignore / Unignore](commands/premium/ignore-unignore/)
+- [Lockdown](commands/premium/lockdown/)
+- [Per-Server Blacklist](commands/premium/per-server-blacklist/)
+- [Subscriptions](commands/premium/subscriptions/)
+- [Team Announcements](commands/premium/team-announcements/)
 
 The following beta commands will automatically be available once we have approved your request for beta commands:
 
-- [Change](/commands/beta/change)
+- [Change](commands/beta/change)
 
 ## Initial Configuration
 
@@ -95,4 +95,4 @@ ArticBot is initialized with a standard server configuration, which is shown bel
   chatBotChannel: "chatbot"
 ```
 
-For more details on per-server configuration, see the article [here](/commands/settings/set-configuration/)
+For more details on per-server configuration, see the article [here](commands/settings/set-configuration/)
