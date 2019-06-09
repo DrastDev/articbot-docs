@@ -1,0 +1,1254 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Adjusting the Configuration - ArticBot Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.3020aac5.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#adjusting-the-configuration" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="ArticBot Documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              ArticBot Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              Adjusting the Configuration
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="ArticBot Documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    ArticBot Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Commands
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Commands
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Beta
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Beta
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../beta/change/" title="Change" class="md-nav__link">
+      Change
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Fun
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Fun
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fun/8ball/" title="8ball" class="md-nav__link">
+      8ball
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fun/chatbot/" title="Chat Bot" class="md-nav__link">
+      Chat Bot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fun/lmgtfy/" title="LMGTFY" class="md-nav__link">
+      LMGTFY
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../fun/say/" title="Say" class="md-nav__link">
+      Say
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      Gamification
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        Gamification
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gamification/cleanup/" title="Cleanup User's" class="md-nav__link">
+      Cleanup User's
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gamification/leaderboard/" title="Leaderboard" class="md-nav__link">
+      Leaderboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gamification/points/" title="Points" class="md-nav__link">
+      Points
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gamification/setpoints/" title="Set Points" class="md-nav__link">
+      Set Points
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Help
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Help
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../help/commands/" title="Commands" class="md-nav__link">
+      Commands
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../help/help/" title="Help" class="md-nav__link">
+      Help
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../help/premium-commands/" title="Premium Commands" class="md-nav__link">
+      Premium Commands
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      Moderation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        Moderation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../moderation/ban/" title="Ban" class="md-nav__link">
+      Ban
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../moderation/kick/" title="Kick" class="md-nav__link">
+      Kick
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../moderation/purge/" title="Purge" class="md-nav__link">
+      Purge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../moderation/warn/" title="Warn" class="md-nav__link">
+      Warn
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+    
+    <label class="md-nav__link" for="nav-2-6">
+      Premium
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        Premium
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../premium/ignore-unignore/" title="Ignore - Unignore" class="md-nav__link">
+      Ignore - Unignore
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../premium/lockdown/" title="Lockdown" class="md-nav__link">
+      Lockdown
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../premium/per-server-blacklist/" title="Per-Server Blacklist" class="md-nav__link">
+      Per-Server Blacklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../premium/subscriptions/" title="Subscriptions" class="md-nav__link">
+      Subscriptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../premium/team-announcements/" title="Team Announcements" class="md-nav__link">
+      Team Announcements
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7">
+    
+    <label class="md-nav__link" for="nav-2-7">
+      Rules
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-7">
+        Rules
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../rules/send-rules/" title="Send Rules" class="md-nav__link">
+      Send Rules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../rules/show-rules/" title="Show Rules" class="md-nav__link">
+      Show Rules
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-8" type="checkbox" id="nav-2-8" checked>
+    
+    <label class="md-nav__link" for="nav-2-8">
+      Settings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-8">
+        Settings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../clear-configuration/" title="Clear Configuration" class="md-nav__link">
+      Clear Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Adjusting the Configuration
+      </label>
+    
+    <a href="./" title="Adjusting the Configuration" class="md-nav__link md-nav__link--active">
+      Adjusting the Configuration
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prefix" title="Prefix" class="md-nav__link">
+    Prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderator-log-channel" title="Moderator Log Channel" class="md-nav__link">
+    Moderator Log Channel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#built-in-debugger" title="Built-In Debugger" class="md-nav__link">
+    Built-In Debugger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chat-bot" title="Chat Bot" class="md-nav__link">
+    Chat Bot
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#swear-filter" title="Swear Filter" class="md-nav__link">
+    Swear Filter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-welcomer" title="User Welcomer" class="md-nav__link">
+    User Welcomer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-role" title="Auto Role" class="md-nav__link">
+    Auto Role
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#announcements-channel" title="Announcements Channel" class="md-nav__link">
+    Announcements Channel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-announcements-channel" title="Team Announcements Channel" class="md-nav__link">
+    Team Announcements Channel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purge-completion" title="Purge Completion" class="md-nav__link">
+    Purge Completion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#say-command" title="Say Command" class="md-nav__link">
+    Say Command
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invite-link-deleter" title="Invite Link Deleter" class="md-nav__link">
+    Invite Link Deleter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beta-commands" title="Beta Commands" class="md-nav__link">
+    Beta Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-audit-logger" title="Custom Audit Logger" class="md-nav__link">
+    Custom Audit Logger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-rules" title="Custom Rules" class="md-nav__link">
+    Custom Rules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subscriptions" title="Subscriptions" class="md-nav__link">
+    Subscriptions
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../show-configuration-details/" title="Detailed Server Configuration" class="md-nav__link">
+      Detailed Server Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../show-configuration/" title="Show Configuration" class="md-nav__link">
+      Show Configuration
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-9" type="checkbox" id="nav-2-9">
+    
+    <label class="md-nav__link" for="nav-2-9">
+      Utility
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-9">
+        Utility
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../utility/guildstats/" title="Guild Stats" class="md-nav__link">
+      Guild Stats
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../utility/ping/" title="Ping" class="md-nav__link">
+      Ping
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../utility/test/" title="Test" class="md-nav__link">
+      Test
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../utility/version/" title="Version" class="md-nav__link">
+      Version
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../utility/whois/" title="Who-Is" class="md-nav__link">
+      Who-Is
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prefix" title="Prefix" class="md-nav__link">
+    Prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderator-log-channel" title="Moderator Log Channel" class="md-nav__link">
+    Moderator Log Channel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#built-in-debugger" title="Built-In Debugger" class="md-nav__link">
+    Built-In Debugger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chat-bot" title="Chat Bot" class="md-nav__link">
+    Chat Bot
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#swear-filter" title="Swear Filter" class="md-nav__link">
+    Swear Filter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-welcomer" title="User Welcomer" class="md-nav__link">
+    User Welcomer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-role" title="Auto Role" class="md-nav__link">
+    Auto Role
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#announcements-channel" title="Announcements Channel" class="md-nav__link">
+    Announcements Channel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-announcements-channel" title="Team Announcements Channel" class="md-nav__link">
+    Team Announcements Channel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purge-completion" title="Purge Completion" class="md-nav__link">
+    Purge Completion
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#say-command" title="Say Command" class="md-nav__link">
+    Say Command
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invite-link-deleter" title="Invite Link Deleter" class="md-nav__link">
+    Invite Link Deleter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beta-commands" title="Beta Commands" class="md-nav__link">
+    Beta Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-audit-logger" title="Custom Audit Logger" class="md-nav__link">
+    Custom Audit Logger
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-rules" title="Custom Rules" class="md-nav__link">
+    Custom Rules
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subscriptions" title="Subscriptions" class="md-nav__link">
+    Subscriptions
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="adjusting-the-configuration">Adjusting the Configuration<a class="headerlink" href="#adjusting-the-configuration" title="Permanent link">&para;</a></h1>
+<p>ArticBot is pre-initialized with a basic per-server configuration, which should fit the needs of most most server owners, however, we all want to customize this at some point, so here are all the available customization options. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>There are several methods in place to ensure that incorrect values don't get entered, however, we can't guarantee you won't break the bot in your server by setting incorrect values. If you do, have no fear, the team at our support server will be glad to help you out.</p>
+</div>
+<h2 id="prefix">Prefix<a class="headerlink" href="#prefix" title="Permanent link">&para;</a></h2>
+<p>This specifies the prefix used used to run commands on the bot with. The default prefix is <code>$</code> and an example command is <code>$help</code>.</p>
+<p>To change the prefix, use <code>$setconf prefix [prefix]</code></p>
+<h2 id="moderator-log-channel">Moderator Log Channel<a class="headerlink" href="#moderator-log-channel" title="Permanent link">&para;</a></h2>
+<p>This channel is where events like a user leaving, getting kicked or banned are recorded. It would be similar to the audit function, but with not quite as many details.</p>
+<p>To set the moderator log channel, use <code>$setconf modLogChannel [channel]</code></p>
+<h2 id="built-in-debugger">Built-In Debugger<a class="headerlink" href="#built-in-debugger" title="Permanent link">&para;</a></h2>
+<p>The built-in debugger auto-logs any commands run in your server, to allow you to better pinpoint where an error might have occured in the bot, and what could have caused it.</p>
+<p>To enable/disable the debugger, use <code>$setconf debuggerEnabled [true|false]</code>
+To set the debugger channel, use <code>$setconf debuggerChannel [channel]</code></p>
+<h2 id="chat-bot">Chat Bot<a class="headerlink" href="#chat-bot" title="Permanent link">&para;</a></h2>
+<p>For details on the chatbot, click <a href="/commands/fun/chatbot">here</a></p>
+<h2 id="swear-filter">Swear Filter<a class="headerlink" href="#swear-filter" title="Permanent link">&para;</a></h2>
+<p>The swear filter on ArticBot is used to filter profane language in a server, and automatically warn the user.</p>
+<p>To enable/disable the swear filter, use <code>$setconf swearFilter [true|false]</code></p>
+<h2 id="user-welcomer">User Welcomer<a class="headerlink" href="#user-welcomer" title="Permanent link">&para;</a></h2>
+<p>When user's join, Discord has a built-in welcoming function, but sometimes it's nice to have your own custom message. ArticBot provides this functionality, with a twist.</p>
+<p>To enable the welcomer, use <code>$setconf welcomerEnabled [true|false]</code>
+To set the welcomer channel, use <code>$setconf welcomerChannel [channel]</code>
+To change the default welcome message, use <code>$setconf welcomerMessage [message]</code></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>When setting a custom welcome message, use <code>{{user}}</code> to specify where you want the name of the user to be put. For example, <code>Welcome {{user}}, thank you for joining our server!</code></p>
+</div>
+<h2 id="auto-role">Auto Role<a class="headerlink" href="#auto-role" title="Permanent link">&para;</a></h2>
+<p>In a server where you like everyone to have roles, you can use the autorole function to automatically assign roles to user's as they join.</p>
+<p>To enable/disable autorole, use <code>$setconf autoRole [true|false]</code>
+To change the default role to be assigned, use <code>$setconf autoRoleName [role-name]</code></p>
+<h2 id="announcements-channel">Announcements Channel<a class="headerlink" href="#announcements-channel" title="Permanent link">&para;</a></h2>
+<p>The announcement function in ArticBot requires a channel that announcements will be sent to.</p>
+<p>To set the channel, use <code>$setconf announcementsChannel [channel]</code>.</p>
+<h2 id="team-announcements-channel">Team Announcements Channel<a class="headerlink" href="#team-announcements-channel" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is only applicable to premium users of ArticBot</p>
+</div>
+<p>The team announcement function in ArticBot is for team announcements, and requires a channel for the announcements to be sent to.</p>
+<p>To set the channel, use <code>$setconf teamAnnouncementsChannel [channel]</code></p>
+<h2 id="purge-completion">Purge Completion<a class="headerlink" href="#purge-completion" title="Permanent link">&para;</a></h2>
+<p>When purging messages, you can optionally have a notification shown to let you know how many messages were purged.</p>
+<p>To enable/disable this message, use <code>$setconf showPurgeCompletion [true|false]</code></p>
+<h2 id="say-command">Say Command<a class="headerlink" href="#say-command" title="Permanent link">&para;</a></h2>
+<p>ArticBot has a Say command, that allows user's to make the bot say things. By default, this command is only enabled for Administrator's and Moderator's, but can be allowed for regular users.</p>
+<p>To enable/disable the say command for all user's, use <code>$setconf restrictSayCommand [true|false]</code></p>
+<h2 id="invite-link-deleter">Invite Link Deleter<a class="headerlink" href="#invite-link-deleter" title="Permanent link">&para;</a></h2>
+<p>You can automatically delete invite link's sent by user's with ArticBot, to prevent user's from promoting their server in your's.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This only restrict's direct Discord Invite Link's, and will not filter link's that redirect to a Discord Invite Link</p>
+</div>
+<p>To enable/disable the invite link deleter, use <code>$setconf removeInviteLinks [true|false]</code></p>
+<h2 id="beta-commands">Beta Commands<a class="headerlink" href="#beta-commands" title="Permanent link">&para;</a></h2>
+<p>To enable beta commands on your server, you must join our support server and submit a request. You can do so by clicking <a href="">here</a></p>
+<h2 id="custom-audit-logger">Custom Audit Logger<a class="headerlink" href="#custom-audit-logger" title="Permanent link">&para;</a></h2>
+<p>The custom audit logger in ArticBot can be used to log more than just the kicks, warns and bans. It can be used to log when messages are deleted, or edited. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is still a work in progress, and is not completely accurate. Some of the message's sent in the audit logger may not be accurate.</p>
+</div>
+<p>To enable/disable the audit logger, use <code>$setconf customAuditLogger [true|false]</code>
+To set the audit logger channel, use <code>$setconf customAuditLoggerChannel [channel]</code></p>
+<h2 id="custom-rules">Custom Rules<a class="headerlink" href="#custom-rules" title="Permanent link">&para;</a></h2>
+<p>ArticBot comes with a set of predefined rule's that should suit most owner's needs, however, depending on the audience your server is geared towards, you may want to customize the rules.</p>
+<p>To change the default rules channel, use <code>$setconf rulesChannel [channel]</code>
+To set custom rules, use <code>$setconf customRules [rules]</code></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These command's may not be implemented for your server yet.</p>
+</div>
+<h2 id="subscriptions">Subscriptions<a class="headerlink" href="#subscriptions" title="Permanent link">&para;</a></h2>
+<p>ArticBot premium has a subscriptions feature that allows user's to subscribe to announcements, then send's them a direct message when announcements are posted. </p>
+<p>To change the subscription role, use <code>$setconf subscriptionRole [role]</code></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You will be able to set a subscription role without ArticBot premium, however, this will have no effect on subscription options until premium is enabled.</p>
+</div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../clear-configuration/" title="Clear Configuration" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Clear Configuration
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../show-configuration-details/" title="Detailed Server Configuration" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Detailed Server Configuration
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
