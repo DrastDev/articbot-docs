@@ -53,6 +53,8 @@ The following commands will be enabled by default:
     - [Help](commands/help/help)
     - [Premium Commands](commands/help/premium-commands)
 
+## Premium Commands
+
 The following premium commands will automatically be available after you purchase a subscription:
 
 - [Ignore / Unignore](commands/premium/ignore-unignore/)
@@ -60,6 +62,8 @@ The following premium commands will automatically be available after you purchas
 - [Per-Server Blacklist](commands/premium/per-server-blacklist/)
 - [Subscriptions](commands/premium/subscriptions/)
 - [Team Announcements](commands/premium/team-announcements/)
+
+## Beta Commands
 
 The following beta commands will automatically be available once we have approved your request for beta commands:
 
